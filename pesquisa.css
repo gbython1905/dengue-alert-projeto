@@ -1,0 +1,186 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Estilos do Cabeçalho */
+header {
+    background: linear-gradient(to right, #2696d6,#30617F,#377999,#30617F,#2696d6);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #30617F;
+    color: #f2f2f2;
+}
+
+.btn-voltar {
+    color: #fff;
+}
+
+.btn-voltar:hover {
+    background-color: #e44617;
+}
+
+
+/* Estilos dos Botões */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.button {
+    padding: 18px 14px;
+    font-size: 16px;
+    background-color: #fb5f2d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color .3s;
+}
+
+.button:hover {
+    background-color: #30617F;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 1rem 0;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Estilos do Conteúdo */
+main {
+    padding: 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    width: auto;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    color:#377999;
+
+    border-bottom: 2px solid #fb602d;
+    padding-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Estilos do Rodapé */
+footer {
+    background: linear-gradient(to right,#222,#222, #333, #222,#222);
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+footer div p {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+footer div img{
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+}

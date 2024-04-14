@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Dengue</title>
+    <link rel="stylesheet" href="pesquisa.css">
+</head>
+
+<body>
+    <header>
+        <h1>Informações sobre a Dengue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="btn-voltar">Voltar à página inicial</a></li>
+                <li><a href="vacina.html">Existe vacina contra a Dengue?</a></li>
+                <li><a href="folders.html">Folders informativos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="button-container">
+        <button class="button" onclick="toggleText('sobre')">O que é a dengue?</button>
+        <button class="button" onclick="toggleText('transmissao')">Como ela é transmitida?</button>
+        <button class="button" onclick="toggleText('formacao')">Como é formado o mosquito da dengue?</button>
+        <button class="button" onclick="toggleText('sintomas')">Sintomas da Dengue</button>
+    </div>
+    <main>
+        <section id="home">
+            <h2>Fatores que contribuíram para casos da dengue</h2>
+            <p>Condições precárias, acesso inadequado a fornecimento de água, tratamento de esgoto e lixo são fatores importantes que contribuem para o aumento dos casos de dengue. Esses problemas podem facilitar a proliferação do mosquito Aedes aegypti, vetor transmissor da doença, ao criar ambientes propícios para o acúmulo de água parada.</p>
+                
+            <p>Além disso, a falta de conscientização e vigilância da população também pode agravar a situação, pois muitos moradores não estão atentos ao surgimento de novos criadouros do mosquito, que podem estar presentes em locais como telhados, calhas, pneus e caixas d’água destampadas.</p>
+            <h2>Mutação como um fator relevante na luta contra a dengue</h2>
+            <p>Uma descoberta recente revelou que o mosquito Aedes aegypti desenvolveu uma mutação, permitindo que suas larvas se reproduzam em água suja, incluindo locais com resíduos de sal e produtos químicos. Isso amplia os potenciais criadouros do mosquito, exigindo medidas mais abrangentes no combate à dengue.</p>
+        </section>
+
+        <section id="sobre" class="hidden">
+            <h2>O que é a Dengue?</h2>
+            <p>A dengue é uma doença viral transmitida por mosquitos que pode ser apresentada de forma benigna ou grave, afetando mais em áreas tropicais e subtropicais.</p>
+            <br>
+            <h2>Você sabia do Projeto "Aedes do Bem"?</h2>
+            <p>O projeto "Aedes do Bem", criado pela empresa Oxitec, utiliza mosquitos geneticamente modificados para combater o vetor da dengue. Esses mosquitos foram projetados para se reproduzirem em caixas especiais, liberando descendentes machos que não transmitem doenças. Essa abordagem inovadora tem mostrado resultados promissores no controle populacional do Aedes aegypti e na redução dos casos de dengue.</p>
+            <h2>Aumento de casos de dengue durante o verão</h2>
+            <p>É comum observar um aumento nas ocorrências de dengue durante o verão, pois o número de chuvas e poças d’água aumenta, facilitando a reprodução do mosquito Aedes aegypti. No entanto, possíveis fenômenos associados ao El Niño, como chuvas intensas e calor excessivo, têm potencializado esses fatores, resultando em uma epidemia mais grave, algo que não era observado desde 2019. O especialista explica que a cada quatro ou cinco anos ocorre uma explosão de um novo tipo de dengue, levando ao surgimento de novos sorotipos.</p>
+    
+            <p>Além disso, é importante destacar que muitos moradores não estão atentos à vigilância no que diz respeito ao surgimento de novos criadouros, os quais podem estar presentes em telhados, calhas, pneus, caixas d’água destampadas, entre outros locais.</p>
+                
+            <p>Fontes:
+                <a href="https://www.paho.org/pt/topicos/dengue#:~:text=A%20dengue%20%C3%A9%20uma%20doen%C3%A7a,propor%C3%A7%C3%A3o%2C%20da%20esp%C3%A9cie%20Aedes%20albopictus">PAHO</a>,
+               <a href="https://www.cnnbrasil.com.br/saude/vacina-contra-dengue-qual-a-diferenca-entre-qdenga-e-imunizante-do-butantan/#:~:text=A%20Qdenga%20%C3%A9%20uma%20vacina,aplicado%20sem%20causar%20a%20doen%C3%A7a">CNN Brasil</a>,
+               <a href="https://www.dengue.pr.gov.br">Dengue PR</a>,
+               <a href="https://bvsms.saude.gov.br">Ministério da Saúde</a>,
+               <a href="https://g1.globo.com/sp/campinas-regiao/noticia/2024/02/04/aedes-do-bem-em-casa-mosquito-com-modificacao-genetica-para-combater-dengue-ganha-versao-domiciliar.ghtml">G1 Globo</a>,
+               <a href="http://spb.org.br/mosquito-da-dengue-tambem-se-reproduz-em-agua-suja/">SPB</a>
+            </p>
+        </section>
+
+        <section id="transmissao" class="hidden">
+            <p>A dengue é transmitida através da picada de um mosquito infectado do gênero Aedes.</p>
+            <p>Esses mosquitos transmitem o vírus por meio de seu sangue ao picar uma pessoa infectada para obter sangue. Em seguida, o mosquito pode transmitir o vírus a outras pessoas ao picar novamente.</p>
+            <p>O mosquito Aedes mais comumente associado à transmissão da dengue é o Aedes aegypti, embora o Aedes albopictus também possa transmitir o vírus.</p>
+        </section>
+
+        <section id="sintomas" class="hidden">
+            <p>Sintomas iniciais: Febre alta, dores musculares, dor ao movimentar os olhos, mal-estar e falta de apetite.</p>
+            <p>Também pode existir sintomas avançados como: Dor abdominal, vômitos persistentes, manchas vermelhas na pele e complicações como acúmulo de líquidos, hipotensão postural e sangramento de mucosas.</p>
+        </section>
+
+        <section id="formacao" class="hidden">
+            <p>O mosquito Aedes aegypti, o principal vetor da dengue, é formado por meio de um ciclo de reprodução complexo que envolve várias etapas:</p>
+            <ul>
+                <li><strong>Ovo:</strong> A fêmea põe seus ovos na borda de recipiente com água limpa parada.</li>
+                <li><strong>Larva:</strong> Depois de 2 a 3 dias, os ovos eclodem e se transformam em larvas. Durante este período, as larvas vivem e se alimentam de microorganismos presentes na água.</li>
+                <li><strong>Pupa:</strong> Após 4 a 10 dias, as larvas se enovelam e se transformam em pupas. Esta é uma fase de desenvolvimento que dura aproximadamente 1 a 2 dias.</li>
+                <li><strong>Mosquito adulto:</strong> Após a fase de pupa, o mosquito emerge da água como um adulto.</li>
+            </ul>
+            <p>É importante destacar que somente a fêmea do mosquito é capaz de picar e se alimentar de sangue, sendo necessário para a reprodução de suas larvas. Já o macho do mosquito se alimenta exclusivamente de néctar e não é capaz depicar.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        <a href="https://www.instagram.com/denguealert.jp" target="_blank" rel="noopener moreferrer">
+            <img src="img/435432892_1871077580030446_2757590520887475547_n.jpg" alt="" srcset="">
+            <p>Instagram - Dengue Alert</p>
+        </a>
+    </footer>
+
+    <script>
+        function toggleText(id) {
+            const sections = document.querySelectorAll('section');
+            const currentSection = document.getElementById(id);
+
+            sections.forEach(section => {
+                if (section.id === id) {
+                    section.classList.remove('hidden');
+                } else {
+                    section.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
